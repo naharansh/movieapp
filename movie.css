@@ -1,0 +1,122 @@
+*
+{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body
+{
+    background: #f5f5f5;
+}
+nav
+{
+    background: #232f3e;
+    color: #ffff;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 18px;
+
+}
+.moviesearch input{
+    padding:5px 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 3px 0px 0px 3px;
+}
+.moviesearch button
+{
+    padding:5px 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 0px 3px 3px 0px;
+    background-color: #f5c518;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.moviesearch button:hover
+{
+    background-color: #817546;
+
+}
+main
+{
+    max-width: 1200px;
+    margin: 0px auto;
+    margin-block: 38px;
+}
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 72vh;
+}
+.container
+
+{
+    display: flex;
+    background-color: white;
+    box-shadow: 0 0 10px #ccc;
+    width: 80%;
+    border-radius: 10px;
+    justify-content: center;
+}
+.poster-movie
+{
+    height: 450px;
+    margin-right: 30px;
+    border-radius: 5px;
+
+}
+.moviedetalis
+{
+    padding-inline: 15px;
+}
+.moviedetalis h2
+{
+    text-align: center;
+    font-size: 1.6rem;
+    margin:20px 0 12px 0;
+}
+.moviedetalis h2+p
+{
+    text-align: center;
+}
+.genre
+{
+    display: flex;
+    justify-content: center;
+    margin-block: 5px;
+}
+.genre p
+{
+    background-color: #232f3e;
+    color: white;
+    padding: 5px 14px;
+    margin-inline: 5px ;
+    border-radius: 6px;
+    border: 2px solid #000000;
+    font-weight: 700;
+ 
+} 
+.moviedetalis p
+{
+    font-size: 18px;
+    margin-block: 16px;
+    line-height: 24px;
+}
+.noback
+
+{
+    background: none;
+    box-shadow: none;
+}
